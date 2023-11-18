@@ -4,7 +4,7 @@ Libreria per interfacciare schede Nucleo con CANBUS tramite MCP2515 e protocollo
 La velocità di comunicazione può essere impostata andando a modificare i valori dei registri **CNF1**, **CNF2**, **CNF3** all'interno del file *CAN_SPI.C* a partire dalla riga 112.
 
 I possibili valori sono:
-**8MHz**
+**8MHz** \n
 #define MCP_8MHz_1000kBPS_CFG1 (0x00)
 #define MCP_8MHz_1000kBPS_CFG2 (0x80)
 #define MCP_8MHz_1000kBPS_CFG3 (0x80)
