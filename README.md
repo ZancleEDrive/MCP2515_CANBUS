@@ -122,7 +122,7 @@ I possibili valori sono:
 #define MCP_16MHz_5kBPS_CFG2 (0xFF)  
 #define MCP_16MHz_5kBPS_CFG3 (0x87)  
   
-**20MHz**
+**20MHz**  
 #define MCP_20MHz_1000kBPS_CFG1 (0x00)  
 #define MCP_20MHz_1000kBPS_CFG2 (0xD9)  
 #define MCP_20MHz_1000kBPS_CFG3 (0x82)  
