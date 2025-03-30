@@ -6,58 +6,58 @@ La velocità di comunicazione può essere impostata andando a modificare i valor
 I possibili valori sono:  
 
 Speed 8M \
-#define MCP_8MHz_1000kBPS_CFG1 (0x00)  
-#define MCP_8MHz_1000kBPS_CFG2 (0xC0)   /* Enabled SAM bit     */  
-#define MCP_8MHz_1000kBPS_CFG3 (0x80)  /* Sample point at 75% */
+8MHz 1000kBPS CNF1 -  0x00
+8MHz 1000kBPS CNF2 -  0x80
+8MHz 1000kBPS CNF3 -  0x80
 
-#define MCP_8MHz_500kBPS_CFG1 (0x00)  
-#define MCP_8MHz_500kBPS_CFG2 (0xD1)   /* Enabled SAM bit     */  
-#define MCP_8MHz_500kBPS_CFG3 (0x81)   /* Sample point at 75% */  
-  
-#define MCP_8MHz_250kBPS_CFG1 (0x80)   /* Increased SJW       */  
-#define MCP_8MHz_250kBPS_CFG2 (0xE5)   /* Enabled SAM bit     */  
-#define MCP_8MHz_250kBPS_CFG3 (0x83)   /* Sample point at 75% */  
+8MHz 500kBPS CNF1 -  0x00
+8MHz 500kBPS CNF2 -  0x90
+8MHz 500kBPS CNF3 -  0x82
 
-#define MCP_8MHz_200kBPS_CFG1 (0x80)   /* Increased SJW       */  
-#define MCP_8MHz_200kBPS_CFG2 (0xF6)   /* Enabled SAM bit     */  
-#define MCP_8MHz_200kBPS_CFG3 (0x84)   /* Sample point at 75% */  
-  
-#define MCP_8MHz_125kBPS_CFG1 (0x81)   /* Increased SJW       */  
-#define MCP_8MHz_125kBPS_CFG2 (0xE5)   /* Enabled SAM bit     */  
-#define MCP_8MHz_125kBPS_CFG3 (0x83)   /* Sample point at 75% */  
-  
-#define MCP_8MHz_100kBPS_CFG1 (0x81)   /* Increased SJW       */  
-#define MCP_8MHz_100kBPS_CFG2 (0xF6)   /* Enabled SAM bit     */  
-#define MCP_8MHz_100kBPS_CFG3 (0x84)   /* Sample point at 75% */  
-  
-#define MCP_8MHz_80kBPS_CFG1 (0x84)    /* Increased SJW       */  
-#define MCP_8MHz_80kBPS_CFG2 (0xD3)    /* Enabled SAM bit     */  
-#define MCP_8MHz_80kBPS_CFG3 (0x81)    /* Sample point at 75% */  
-  
-#define MCP_8MHz_50kBPS_CFG1 (0x84)    /* Increased SJW       */  
-#define MCP_8MHz_50kBPS_CFG2 (0xE5)    /* Enabled SAM bit     */  
-#define MCP_8MHz_50kBPS_CFG3 (0x83)    /* Sample point at 75% */  
-  
-#define MCP_8MHz_40kBPS_CFG1 (0x84)    /* Increased SJW       */  
-#define MCP_8MHz_40kBPS_CFG2 (0xF6)    /* Enabled SAM bit     */  
-#define MCP_8MHz_40kBPS_CFG3 (0x84)    /* Sample point at 75% */  
-  
-#define MCP_8MHz_33k3BPS_CFG1 (0x85)   /* Increased SJW       */  
-#define MCP_8MHz_33k3BPS_CFG2 (0xF6)   /* Enabled SAM bit     */  
-#define MCP_8MHz_33k3BPS_CFG3 (0x84)   /* Sample point at 75% */  
-  
-#define MCP_8MHz_31k25BPS_CFG1 (0x87)  /* Increased SJW       */  
-#define MCP_8MHz_31k25BPS_CFG2 (0xE5)  /* Enabled SAM bit     */  
-#define MCP_8MHz_31k25BPS_CFG3 (0x83)  /* Sample point at 75% */  
-  
-#define MCP_8MHz_20kBPS_CFG1 (0x89)    /* Increased SJW       */  
-#define MCP_8MHz_20kBPS_CFG2 (0xF6)    /* Enabled SAM bit     */  
-#define MCP_8MHz_20kBPS_CFG3 (0x84)    /* Sample point at 75% */  
-  
-#define MCP_8MHz_10kBPS_CFG1 (0x93)    /* Increased SJW       */  
-#define MCP_8MHz_10kBPS_CFG2 (0xF6)    /* Enabled SAM bit     */  
-#define MCP_8MHz_10kBPS_CFG3 (0x84)    /* Sample point at 75% */  
-  
-#define MCP_8MHz_5kBPS_CFG1 (0xA7)     /* Increased SJW       */  
-#define MCP_8MHz_5kBPS_CFG2 (0xF6)     /* Enabled SAM bit     */  
-#define MCP_8MHz_5kBPS_CFG3 (0x84)     /* Sample point at 75% */  
+8MHz 250kBPS CNF1 -  0x00
+8MHz 250kBPS CNF2 -  0xB1
+8MHz 250kBPS CNF3 -  0x85
+
+8MHz 200kBPS CNF1 -  0x00
+8MHz 200kBPS CNF2 -  0xB4
+8MHz 200kBPS CNF3 -  0x86
+
+8MHz 125kBPS CNF1 -  0x01
+8MHz 125kBPS CNF2 -  0xB1
+8MHz 125kBPS CNF3 -  0x85
+
+8MHz 100kBPS CNF1 -  0x01
+8MHz 100kBPS CNF2 -  0xB4
+8MHz 100kBPS CNF3 -  0x86
+
+8MHz 80kBPS CNF1 -  0x01
+8MHz 80kBPS CNF2 -  0xBF
+8MHz 80kBPS CNF3 -  0x87
+
+8MHz 50kBPS CNF1 -  0x03
+8MHz 50kBPS CNF2 -  0xB4
+8MHz 50kBPS CNF3 -  0x86
+
+8MHz 40kBPS CNF1 -  0x03
+8MHz 40kBPS CNF2 -  0xBF
+8MHz 40kBPS CNF3 -  0x87
+
+8MHz 33k3BPS CNF1 -  0x47
+8MHz 33k3BPS CNF2 -  0xE2
+8MHz 33k3BPS CNF3 -  0x85
+
+8MHz 31k25BPS CNF1 -  0x07
+8MHz 31k25BPS CNF2 -  0xA4
+8MHz 31k25BPS CNF3 -  0x84
+
+8MHz 20kBPS CNF1 -  0x07
+8MHz 20kBPS CNF2 -  0xBF
+8MHz 20kBPS CNF3 -  0x87
+
+8MHz 10kBPS CNF1 -  0x0F
+8MHz 10kBPS CNF2 -  0xBF
+8MHz 10kBPS CNF3 -  0x87
+
+8MHz 5kBPS CNF1 -  0x1F
+8MHz 5kBPS CNF2 -  0xBF
+8MHz 5kBPS CNF3 -  0x87
